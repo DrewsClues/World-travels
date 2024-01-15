@@ -1,0 +1,14 @@
+.trip-carousel{
+    height: 300px; 
+    width: 50%;
+    margin-top: 50px;
+}
+
+.travel-image{
+    height: 100%;
+    width: 100%;
+}
+
+.home_caption{
+    font-size: 30pt;
+}
