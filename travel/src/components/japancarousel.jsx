@@ -9,13 +9,14 @@ import { Modal , Card, Carousel } from 'react-bootstrap'
 import Read_Nagoya from './read-modals/Read_Nagoya';
 import Read_Matsumoto from './read-modals/Read-Matsumoto';
 import Read_Kamikochi from './read-modals/Read-Kamikochi';
+import Read_Osaka from './read-modals/Read_Osaka';
 
 
-function ControlledCarousel() {
+function Japancarousel() {
 
     
   return (
-        <div className='carousel-div'> 
+        <div className='carousel-div'>
 
             <Carousel fade className='trip-carousel'>
                         <Carousel.Item interval={5000}>
@@ -100,7 +101,7 @@ function ControlledCarousel() {
                             <img className = "travel-image" src="Osaka.jpg"></img> 
                             </div>
                             <Carousel.Caption>
-                            <h3 className='home_caption'>Osaka, Japan</h3>
+                                <Read_Osaka/>
                             </Carousel.Caption>
                         </Carousel.Item>
 
@@ -129,4 +130,4 @@ function ControlledCarousel() {
   );
 }
 
-export default ControlledCarousel;
+export default Japancarousel;
