@@ -14,7 +14,7 @@ function Read_Nagoya() {
     <>
         <h3 className='home_caption' onClick={() => setLgShow(true)} >Nagoya, Japan <HiOutlineBookOpen/></h3>
         <Modal
-        size="md"
+        size="lg"
         show={lgShow}
         onHide={() => setLgShow(false)}
         aria-labelledby="example-modal-sizes-title-lg"

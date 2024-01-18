@@ -10,6 +10,7 @@ import Read_Nagoya from './read-modals/Read_Nagoya';
 import Read_Matsumoto from './read-modals/Read-Matsumoto';
 import Read_Kamikochi from './read-modals/Read-Kamikochi';
 import Read_Osaka from './read-modals/Read_Osaka';
+import Read_Fukuoka from './read-modals/Read_Fukuoka';
 
 
 function Japancarousel() {
@@ -57,42 +58,7 @@ function Japancarousel() {
                             <img className = "travel-image" src="Fukuoka.jpg"></img> 
                             </div>
                             <Carousel.Caption>
-                            <h3 className='home_caption'>Fukuoka, Japan</h3>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-                        <Carousel.Item interval={5000}>
-                            <div>
-                            <img className = "travel-image" src="Seoul.jpg"></img> 
-                            </div>
-                            <Carousel.Caption>
-                            <h3 className='home_caption'>Seoul, South Korea</h3>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-
-                        <Carousel.Item interval={5000}>
-                            <div>
-                            <img className = "travel-image" src="Jiufen.jpg"></img> 
-                            </div>
-                            <Carousel.Caption>
-                            <h3 className='home_caption'>Jiufen, Taiwan</h3>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-
-                        <Carousel.Item interval={5000}>
-                            <div>
-                            <img className = "travel-image" src="Gwangju.jpg"></img> 
-                            </div>
-                            <Carousel.Caption>
-                            <h3 className='home_caption'>Gwangju, South Korea</h3>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-
-                        <Carousel.Item interval={5000}>
-                            <div>
-                            <img className = "travel-image" src="Bisbee.jpg"></img> 
-                            </div>
-                            <Carousel.Caption>
-                            <h3 className='home_caption'>Bisbee, Arizona</h3>
+                                <Read_Fukuoka/>
                             </Carousel.Caption>
                         </Carousel.Item>
 
@@ -105,23 +71,7 @@ function Japancarousel() {
                             </Carousel.Caption>
                         </Carousel.Item>
 
-                        <Carousel.Item interval={5000}>
-                            <div>
-                            <img className = "travel-image" src="White-Sands.jpg"></img> 
-                            </div>
-                            <Carousel.Caption>
-                            <h3 className='home_caption'>White Sands, New Mexico</h3>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-
-                        <Carousel.Item interval={5000}>
-                            <div>
-                            <img className = "travel-image" src="Taipei.jpg"></img> 
-                            </div>
-                            <Carousel.Caption>
-                            <h3 className='home_caption'>Taipei, Taiwan</h3>
-                            </Carousel.Caption>
-                        </Carousel.Item>
+                        
 
 
                     </Carousel>

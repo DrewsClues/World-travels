@@ -13,7 +13,7 @@ function Read_Matsumoto() {
     <>
         <h3 className='home_caption' onClick={() => setLgShow(true)} >Kamikochi, Japan <HiOutlineBookOpen/></h3>
         <Modal
-        size="md"
+        size="lg"
         show={lgShow}
         onHide={() => setLgShow(false)}
         aria-labelledby="example-modal-sizes-title-lg"
