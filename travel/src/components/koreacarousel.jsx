@@ -25,55 +25,46 @@ function Koreacarousel() {
                             <img className = "travel-image" src="Seoul.jpg"></img> 
                             </div>
                             <Carousel.Caption>
-                            <h3 className='home_caption'>Seoul, South Korea</h3>
+                            <h3 className='home_caption'>Seoul</h3>
                             </Carousel.Caption>
                         </Carousel.Item>
 
                         <Carousel.Item interval={5000}>
                             <div>
-                            <img className = "travel-image" src="Jiufen.jpg"></img> 
+                            <img className = "travel-image" src="Busan.jpg"></img> 
                             </div>
                             <Carousel.Caption>
-                            <h3 className='home_caption'>Jiufen, Taiwan</h3>
+                            <h3 className='home_caption'>Busan</h3>
                             </Carousel.Caption>
                         </Carousel.Item>
+
+                        <Carousel.Item interval={5000}>
+                            <div>
+                            <img className = "travel-image" src="Bukhansan.jpg"></img> 
+                            </div>
+                            <Carousel.Caption>
+                            <h3 className='home_caption'>Bukhansan National Park</h3>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+
+                        <Carousel.Item interval={5000}>
+                            <div>
+                            <img className = "travel-image" src="Seoraksan.jpg"></img> 
+                            </div>
+                            <Carousel.Caption>
+                            <h3 className='home_caption'>Seoraksan National Park</h3>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+
 
                         <Carousel.Item interval={5000}>
                             <div>
                             <img className = "travel-image" src="Gwangju.jpg"></img> 
                             </div>
                             <Carousel.Caption>
-                            <h3 className='home_caption'>Gwangju, South Korea</h3>
+                            <h3 className='home_caption'>Gwangju</h3>
                             </Carousel.Caption>
                         </Carousel.Item>
-
-                        <Carousel.Item interval={5000}>
-                            <div>
-                            <img className = "travel-image" src="Bisbee.jpg"></img> 
-                            </div>
-                            <Carousel.Caption>
-                            <h3 className='home_caption'>Bisbee, Arizona</h3>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-
-                        <Carousel.Item interval={5000}>
-                            <div>
-                            <img className = "travel-image" src="White-Sands.jpg"></img> 
-                            </div>
-                            <Carousel.Caption>
-                            <h3 className='home_caption'>White Sands, New Mexico</h3>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-
-                        <Carousel.Item interval={5000}>
-                            <div>
-                            <img className = "travel-image" src="Taipei.jpg"></img> 
-                            </div>
-                            <Carousel.Caption>
-                            <h3 className='home_caption'>Taipei, Taiwan</h3>
-                            </Carousel.Caption>
-                        </Carousel.Item>
-
 
                     </Carousel>
                 </div>

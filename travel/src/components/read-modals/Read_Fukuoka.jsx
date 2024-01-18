@@ -12,7 +12,7 @@ function Read_Fukuoka() {
     const [lgShow, setLgShow] = React.useState(false);
     return (
     <>
-        <h3 className='home_caption' onClick={() => setLgShow(true)} >Fukuoka, Japan <HiOutlineBookOpen/></h3>
+        <h3 className='home_caption' onClick={() => setLgShow(true)} >Fukuoka <HiOutlineBookOpen/></h3>
         <Modal
         size="lg"
         show={lgShow}
@@ -21,7 +21,7 @@ function Read_Fukuoka() {
         >
         <Modal.Header closeButton>
             <Modal.Title id="example-modal-sizes-title-lg">
-            Fukuoka, Japan
+            Fukuoka
             </Modal.Title>
         </Modal.Header>
         <Modal.Body className='read-body'>

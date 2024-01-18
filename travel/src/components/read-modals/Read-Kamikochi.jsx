@@ -11,7 +11,7 @@ function Read_Matsumoto() {
     const [lgShow, setLgShow] = React.useState(false);
     return (
     <>
-        <h3 className='home_caption' onClick={() => setLgShow(true)} >Kamikochi, Japan <HiOutlineBookOpen/></h3>
+        <h3 className='home_caption' onClick={() => setLgShow(true)} >Kamikochi <HiOutlineBookOpen/></h3>
         <Modal
         size="lg"
         show={lgShow}
@@ -20,7 +20,7 @@ function Read_Matsumoto() {
         >
         <Modal.Header closeButton>
             <Modal.Title id="example-modal-sizes-title-lg">
-            Kamikochi, Japan
+            Kamikochi
             </Modal.Title>
         </Modal.Header>
         <Modal.Body className='read-body'>

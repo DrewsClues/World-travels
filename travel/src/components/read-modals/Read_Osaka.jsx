@@ -11,7 +11,7 @@ function Read_Osaka() {
     const [lgShow, setLgShow] = React.useState(false);
     return (
     <>
-        <h3 className='home_caption' onClick={() => setLgShow(true)} >Osaka, Japan <HiOutlineBookOpen/></h3>
+        <h3 className='home_caption' onClick={() => setLgShow(true)} >Osaka <HiOutlineBookOpen/></h3>
         <Modal
         size="lg"
         show={lgShow}
@@ -20,7 +20,7 @@ function Read_Osaka() {
         >
         <Modal.Header closeButton>
             <Modal.Title id="example-modal-sizes-title-lg">
-            Osaka, Japan
+            Osaka
             </Modal.Title>
         </Modal.Header>
         <Modal.Body className='read-body'>

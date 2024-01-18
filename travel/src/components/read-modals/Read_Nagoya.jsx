@@ -12,7 +12,7 @@ function Read_Nagoya() {
     const [lgShow, setLgShow] = React.useState(false);
     return (
     <>
-        <h3 className='home_caption' onClick={() => setLgShow(true)} >Nagoya, Japan <HiOutlineBookOpen/></h3>
+        <h3 className='home_caption' onClick={() => setLgShow(true)} >Nagoya <HiOutlineBookOpen/></h3>
         <Modal
         size="lg"
         show={lgShow}
@@ -21,7 +21,7 @@ function Read_Nagoya() {
         >
         <Modal.Header closeButton>
             <Modal.Title id="example-modal-sizes-title-lg">
-            Nagoya, Japan
+            Nagoya
             </Modal.Title>
         </Modal.Header>
         <Modal.Body className='read-body'>
